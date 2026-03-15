@@ -46,17 +46,7 @@ These files are included in the repo. If you clone this repository, they will be
 
 ## Running the Notebooks
 
-Open Jupyter and run the notebooks in order:
-
-```bash
-jupyter notebook
-```
-
-Or run non-interactively:
-```bash
-jupyter nbconvert --to notebook --execute BERT.ipynb
-jupyter nbconvert --to notebook --execute "BoW Model.ipynb"
-```
+Open Google Collab and run the notebooks, connecting to an A100 high ram GPU model. 
 
 ---
 
